@@ -1,0 +1,32 @@
+title: "SJIP:"
+labels: ["Draft"]
+body:
+  - type: input
+    id: description
+    attributes:
+      label: Description
+      description: Short description about the SJIP
+      placeholder: "Example: clarify hierarchy of truth"
+    validations:
+      required: true
+  - type: input
+    id: pr
+    attributes:
+      label: Judging Guidelines PR
+      description: A link to a PR located in this repo https://github.com/sherlock-protocol/sherlock-v2-docs
+    validations:
+      required: true
+  - type: textarea
+    id: rationale
+    attributes:
+      label: Rationale
+      description: What motivated the design and why particular design decisions were made.
+    validations:
+      required: true
+  - type: textarea
+    id: discussions
+    attributes:
+      label: Relevant Issue Discussions
+      description: Provide a link to 1 or more relevant issue discussions on a finalized contest
+    validations:
+      required: true
